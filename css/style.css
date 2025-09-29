@@ -145,3 +145,69 @@ color:#FFFFFF;
 /* ==============================
        banner end
 ================================ */
+
+/* ==============================
+       service start
+================================ */
+.title{
+  padding-top: 220px;
+  text-align: center;
+}
+.title h4{
+font-family: "Vollkorn", serif;
+font-size: 18px;
+font-weight: 500;
+color: #E5745D;
+}
+.title h2{
+font-family: "Vollkorn", serif;
+font-size: 50px;
+font-weight: 500;
+color: #00413D;
+width: 511px;
+margin: 0 auto;
+padding-top: 11px;
+padding-bottom: 40px;
+}
+.service .card{
+  width: 100% !important;
+  padding: 50px 35px;
+  border: 0;
+box-shadow: -4px -3px 16px -3px rgba(0,0,0,0.62);
+-webkit-box-shadow: -4px -3px 16px -3px rgba(0,0,0,0.62);
+-moz-box-shadow: -4px -3px 16px -3px rgba(0,0,0,0.62);
+}
+
+.service .card img{
+  width: 68px;
+}
+.service .card .card-body{
+  padding: 0;
+}
+.service .card .card-title{
+font-family: "Vollkorn", serif;
+font-size: 24px;
+font-weight: 800;
+color: #00413D;
+padding-top: 26px;
+padding-bottom: 15px;
+}
+.service .card .card-text{
+font-family: "Jost", sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #00413D;
+width: 245px;
+}
+.service .card i{
+  color: #00413D;
+  width: 27.726524353027344px;
+  padding-top: 30px;
+  transition: .5s;
+}
+.service .card:hover i{
+  color: #E5745D;
+}
+/* ==============================
+       service end
+================================ */
