@@ -79,7 +79,7 @@ overflow: hidden;
 z-index: 1;
 }
 .banner .overlay{
-background-image: url(../images/bannerhover.jpg);
+background-image: url(../images/sovon1.jpg);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -158,6 +158,26 @@ font-family: "Vollkorn", serif;
 font-size: 18px;
 font-weight: 500;
 color: #E5745D;
+position: relative;
+}
+.title h4::after {
+position: absolute;
+top: 7px;
+left: 535px;
+width: 40px;
+height: 2px;
+content: "";
+background: red;
+}
+.title h4::before {
+position: absolute;
+top:5px;
+left: 573px;
+width: 6px;
+height: 6px;
+content: "";
+background: red;
+border-radius: 50%;
 }
 .title h2{
 font-family: "Vollkorn", serif;
@@ -170,9 +190,9 @@ padding-top: 11px;
 padding-bottom: 40px;
 }
 .service .card{
-  width: 100% !important;
-  padding: 50px 35px;
-  border: 0;
+width: 100% !important;
+padding: 50px 35px;
+border: 0;
 box-shadow: -4px -3px 16px -3px rgba(0,0,0,0.62);
 -webkit-box-shadow: -4px -3px 16px -3px rgba(0,0,0,0.62);
 -moz-box-shadow: -4px -3px 16px -3px rgba(0,0,0,0.62);
@@ -200,14 +220,102 @@ color: #00413D;
 width: 245px;
 }
 .service .card i{
-  color: #00413D;
-  width: 27.726524353027344px;
-  padding-top: 30px;
-  transition: .5s;
+color: #00413D;
+width: 27.726524353027344px;
+padding-top: 30px;
+transition: .5s;
 }
 .service .card:hover i{
   color: #E5745D;
 }
 /* ==============================
        service end
+================================ */
+
+/* ==============================
+       about part start
+================================ */
+.about{
+  padding-top: 120px;
+  padding-bottom: 80px;
+
+}
+.about .row{
+    align-items: center ;
+}
+.about .first_img{
+  width: 60%;
+}
+.about .about_2{
+  width: 100%;
+}
+.title2 h4{
+font-family: "Vollkorn", serif;
+font-size: 18px;
+font-weight: 500;
+color: #E5745D;
+position: relative;
+margin-left: 50px;
+}
+.title2 h4::after {
+position: absolute;
+top: 8px;
+left: -45px;
+width: 40px;
+height: 2px;
+content: "";
+background: red;
+}
+.title2 h4::before {
+position: absolute;
+top:6px;
+left: -10px;
+width: 6px;
+height: 6px;
+content: "";
+background: red;
+border-radius: 50%;
+}
+.title2 h2{
+font-family: "Vollkorn", serif;
+font-size: 50px;
+font-weight: 500;
+color: #00413D;
+width: auto;
+margin: 0 auto;
+padding-top: 11px;
+
+}
+.about p{
+font-family: "Jost", sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #00413D;
+width: 570px;
+padding-bottom: 40px;
+}
+.about .button2{
+background: #E5745D;
+padding: 21px 39px;
+text-align: center;
+color: #FFFFFF;
+font-family: "Jost", sans-serif;
+font-size: 18px;
+font-weight: 500;
+position: relative;
+width: 198px;
+height: 64px;
+border: .5px solid white;
+}
+.button2::after {
+position: absolute;
+top: 5px;
+left: 4px;
+width: 179px;
+height: 58px;
+border: 1px solid #FFFFFF;
+content: "";
+}
+/* ==============================
+      about part end
 ================================ */
